@@ -60,6 +60,11 @@ try {
 $me = $response->getGraphUser();
 echo 'Logged in as ' . $me->getName();
 ```
+> **Note:** Please make sure that you add the autoloader to the boostrap of your application. Example:
+
+```
+require 'vendor/autoload.php';
+```
 
 Complete documentation, installation instructions, and examples are available [here](docs/).
 
